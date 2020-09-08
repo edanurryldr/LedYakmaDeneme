@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="kirmizi">#FF1000</color>
-    <color name="sari">#FFE100</color>
-    <color name="yesil">#00FF0A</color>
+    <color name="colorPrimary">#262938</color>
     <color name="siyah">#000000</color>
+    <color name="kahverengi">#9D6F30</color>
+    <color name="colorPrimary1">#23A7DB</color>
+    <color name="colorPrimaryDark">#181A24</color>
+    <color name="colorPrimaryDark1">#23A7DB</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent1">#FFFFFF</color>
+    <color name="kirmizi">#F44336</color>
+    <color name="sari">#FFEB3B</color>
+    <color name="yesil">#4CAF50</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparenWhite">#cccccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#19AA6B</color>
+    <color name="gradStop">#23A7DB</color>
 </resources>

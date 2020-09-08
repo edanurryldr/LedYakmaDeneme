@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ledyakmadeneme">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,6 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Daire8"></activity>
+        <activity android:name=".Activity_Daire7" />
+        <activity android:name=".Activity_Daire6" />
+        <activity android:name=".Activity_Daire5" />
+        <activity android:name=".Activity_Daire4" />
+        <activity android:name=".Activity_Daire3" />
+        <activity android:name=".Activity_Daire2" />
+        <activity android:name=".Activity_Login" />
+        <activity android:name=".ActivitySignup" />
+        <activity android:name=".Activity_SatilanDaireler" />
+        <activity android:name=".Activity_Menu" />
+        <activity android:name=".Activity_Daire1" />
+        <activity android:name=".Activity_Hakkimizda" />
+        <activity android:name=".Activity_Category" />
+        <activity android:name=".Activity_Bloklar" />
+        <activity android:name=".Activity_Binalar" />
+        <activity android:name=".Activity_Animasyon" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,5 +34,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

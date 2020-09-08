@@ -1,54 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#000000"
     tools:context=".MainActivity">
 
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="16dp"
-        android:background="@drawable/kirmizishape" />
-    <Button
-        android:id="@+id/kirmiziac"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        /> <Button
-    android:id="@+id/kirmizikapat"
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:layout_marginLeft="25dp"
-    android:layout_marginTop="10dp"
-    />
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/yesilshape" />
-
-    <Button
-    android:id="@+id/yesilac"
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:layout_marginLeft="25dp"
-    android:layout_marginTop="10dp"
-    />
-    <Button
-        android:id="@+id/yesilkapat"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/giris"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="0dp"
         />
 
-
-</LinearLayout>
+    <TextView
+        android:id="@+id/marka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/marka"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gifImageView"
+        app:layout_constraintStart_toStartOf="@+id/gifImageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
